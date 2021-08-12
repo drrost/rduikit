@@ -6,7 +6,7 @@ This package contains different facilities for UIKit.
 
 ```
 .package(
-    name: "ExtensionsUIKit",
-    url: "git@github.com:drrost/swift-extensions-uikit.git",
+    name: "RDUIKit",
+    url: "git@github.com:drrost/rduikit.git",
     from: "0.0.1"),
 ```
