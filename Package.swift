@@ -3,23 +3,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "ExtensionsUIKit",
+    name: "RDUIKit",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "ExtensionsUIKit",
-            targets: ["ExtensionsUIKit"]),
+            name: "RDUIKit",
+            targets: ["RDUIKit"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "ExtensionsUIKit",
+            name: "RDUIKit",
             dependencies: []),
         .testTarget(
-            name: "ExtensionsUIKitTests",
-            dependencies: ["ExtensionsUIKit"]),
+            name: "RDUIKitTests",
+            dependencies: ["RDUIKit"]),
     ]
 )
